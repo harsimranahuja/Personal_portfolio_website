@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>PERSONAL PORTFOLIO WEBSITE</title>
+
+</head>
+<body>     
+        <nav>
+            <ul class="sidebar">
+                <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about-me.html">ABOUT</a></li>
+                <li><a href="projects.html">PROJECT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">PERSONAL PORTFOLIO WEBSITE</a></li>
+                <li class="hideOnMobile"><a href="index.html">HOME</a></li>
+                <li class="hideOnMobile"><a href="about-me.html">ABOUT</a></li>
+                <li class="hideOnMobile"><a href="projects.html">PROJECT</a></li>
+                <li class="hideOnMobile"><a href="contact.html">CONTACT</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+        <div class="about-bg"><h2>PROJECTS</h2></div><br>
+        <div class="modern_image">
+            <div class="img_m"><img class="himg" src="images/modern_art_1.jpg" alt="">
+                <div class="hcap"><a href="#">Project Name</a></div>
+            </div>
+            <div class="img_m"><img class="himg" src="images/modern_art_3.jpg" alt="">
+                <div class="hcap"><a href="#">Project Name</a></div>
+            </div>
+            <div class="img_m"><img class="himg" src="images/modern_art_4.jpg" alt="">
+                <div class="hcap"><a href="#">Project Name</a></div>
+            </div>
+            <div class="img_m"><img class="himg" src="images/modern_art_5.jpg" alt="">
+                <div class="hcap"><a href="#">Project Name</a></div>
+            </div>
+            <div class="img_m"><img class="himg" src="images/personal portfolio image.png" alt="">
+                <div class="hcap"><a href="#">Project Name</a></div>
+            </div>
+            <div class="img_m"><img class="himg" src="images/personal portfolio image.png" alt="">
+                <div class="hcap"><a href="#">Project Name</a></div>
+            </div>
+            <div class="img_m"><img class="himg" src="images/modern_art_8.jpg" alt="">
+                <div class="hcap"><a href="#">Project Name</a></div>
+            </div>
+            <div class="img_m"><img class="himg" src="images/modern_art_9.jpg" alt="">
+                <div class="hcap"><a href="#">Project Name</a></div>
+            </div>
+            
+        </div><br>
+        <footer>
+            <div class="namelogo"><h3>PERSONAL PORTFOLIO WEBSITE</h3><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, fugit? assumenda, iure veniam eos.</p>
+            </div>
+            <div class="navig">
+                <h4>Navigation</h4><br>
+                <a href="index.html">Home</a><br>
+                <a href="about-me.html">About</a><br>
+                <a href="projects.html">Project</a><br>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="social">
+                <h4>Follow us on social media</h4><br>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+            <div class="newsletter">
+                <h4>Newsletter</h4><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. necessitatibus! Ab, sequi repellendus.</p>
+            </div>
+        </footer>
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'    
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+        function button(){
+            const button = document.querySelector('.button')
+           button=  alert('Thanks for filling the form we will contact you in 24 hours');
+        }
+    </script>
+</body>
+</html>

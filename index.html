@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>PERSONAL PORTFOLIO WEBSITE</title>
+
+</head>
+<body>     
+        <nav>
+            <ul class="sidebar">
+                <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about-me.html">ABOUT</a></li>
+                <li><a href="projects.html">PROJECT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <ul>
+                
+                <li><a href="#">PERSONAL PORTFOLIO WEBSITE</a></li>
+                <li class="hideOnMobile"><a href="index.html">HOME</a></li>
+                <li class="hideOnMobile"><a href="about-me.html">ABOUT</a></li>
+                <li class="hideOnMobile"><a href="projects.html">PROJECT</a></li>
+                <li class="hideOnMobile"><a href="contact.html">CONTACT</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+        <div class="title-bg">
+            <div class="sub"><h2>Hi there,</h2> <h2>| My Name Is Harsimran Jot Singh |</h2>
+            <h5>| I am a web developer and Android App Developer |</h5>
+            
+        </div><img src="images/1000202419.jpg"></div>
+        <div class="content">
+           <br><h2>RESUME</h2><br>
+            <p>Download the Resume by clicking the Download button</p><br>
+            <img src="images/Cv(harsimran jot).jpg" width="60%" height="900px"><br><br>
+            <a href="cv.html">Download</a>
+        </div>
+        <footer>
+            <div class="namelogo"><h3>PERSONAL PORTFOLIO WEBSITE</h3><br>
+                <p>Lorem Fugiat beatae quae distinctio quaerat quos assumenda, iure veniam eos.</p>
+            </div>
+            <div class="navig">
+                <h4>Navigation</h4><br>
+                <a href="index.html">Home</a><br>
+                <a href="about-me.html">About</a><br>
+                <a href="projects.html">Project</a><br>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="social">
+                <h4>Follow us on social media</h4><br>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+            <div class="newsletter">
+                <h4>Newsletter</h4><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum numqu necessitatibus! Ab, sequi repellendus.</p>
+            </div>
+        </footer>
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'    
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+</html>
